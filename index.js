@@ -427,7 +427,7 @@ const App = (function(ItemCtrl, StorageCtrl, UICtrl){
             UICtrl.populateItemList(items);
            }
            
-// Get total calories
+// Get total calories!
 const totalCalories = ItemCtrl.getTotalCalories(); //Add to UI
 UICtrl.showTotalCalories(totalCalories);
            
@@ -441,6 +441,6 @@ UICtrl.showTotalCalories(totalCalories);
 
 })(ItemCtrl,StorageCtrl, UICtrl);
 
-//Init App
+//Init App!
 
 App.init();
